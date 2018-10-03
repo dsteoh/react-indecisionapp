@@ -21,13 +21,10 @@ const multiplier = {
     //number - array of numbers
     //multiplyBy - single number
     //multiply - return a new array where the numbers have been multiplied
-
     number: [2,4,5,10],
     multiply(multiplyBy) {
         return this.number.map((numbers) => numbers * multiplyBy);
     }
-
-
 };
 
 console.log(multiplier.multiply(3));
