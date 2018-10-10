@@ -26,7 +26,7 @@ var IndecisionApp = function (_React$Component) {
         key: 'render',
         value: function render() {
             var title = 'Indecision';
-            var subtitle = 'Put your life in te hands of a computer';
+            var subtitle = 'Put your life in the hands of a computer';
             return React.createElement(
                 'div',
                 null,
