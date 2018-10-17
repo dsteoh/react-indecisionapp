@@ -9,6 +9,18 @@ class IndecisionApp extends React.Component {
             options: props.options
         };
     }
+    componentDidMount() {
+        console.log('fetching data');
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        console.log('saving data');
+    }
+
+    componentWillUnmount() {
+        console.log('componentWillUnmount');
+        
+    }
 
     handleDeleteOption(optionToRemove) {
         this.setState((prevState) => ({
@@ -17,7 +29,7 @@ class IndecisionApp extends React.Component {
     }
 
     handleDeleteOptions() {
-        this.setState(() => ({options: []}));
+        this.setState(() => ({options: [] }));
     }
 
     handlePick() {
@@ -54,7 +66,7 @@ class IndecisionApp extends React.Component {
                 handleAddOption = {this.handleAddOption}
                 />
             </div>
-        );
+        )
     }
 }
 
