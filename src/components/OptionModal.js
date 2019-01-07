@@ -6,6 +6,7 @@ Modal.setAppElement('#app');
 const OptionModal = (props) => (
     <Modal
     isOpen = {!!props.selectedOption}
+    onRequestClose = {props.handleModal}
     contentLabel = "Selected option"
     >
         <h3>Selected Option</h3>

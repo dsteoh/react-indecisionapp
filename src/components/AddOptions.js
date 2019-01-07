@@ -4,6 +4,7 @@ export default class AddOptions extends React.Component {
     state = {
         error: undefined
     }
+
     handleAddOption = (e) => {
         const options = e.target.elements.option.value.trim(); 
         e.preventDefault();
@@ -15,6 +16,7 @@ export default class AddOptions extends React.Component {
             e.target.elements.option.value = '';
         }
     };
+
     render() {
         return (    
             <div>

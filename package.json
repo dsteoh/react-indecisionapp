@@ -1,5 +1,5 @@
 {
-  "name": "Indicision-App",
+  "name": "Indecision-App",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,19 +12,20 @@
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "1.5.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
-    "css-loader": "^1.0.0",
-    "live-server": "^1.2.0",
-    "node-sass": "^4.9.4",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-modal": "^3.6.1",
+    "css-loader": "^2.1.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-modal": "^3.8.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.21.0",
-    "webpack-dev-server": "^3.1.9"
+    "webpack": "^4.28.3",
+    "webpack-dev-server": "^3.1.14"
   },
   "devDependencies": {
     "webpack-cli": "^3.1.2"
