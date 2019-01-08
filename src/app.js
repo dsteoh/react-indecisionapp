@@ -5,26 +5,3 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 ReactDOM.render(<IndecisionApp/>, document.getElementById('app'));
-
-class OldSyntax {
-    constructor() {
-        this.name = 'Mileee';
-    }
-    getGreeting = ()  => {
-        return `Hi, My Name Is ${this.name}`;
-    }
-}
-const oldSyntax = new OldSyntax();
-const getGreeting = oldSyntax.getGreeting;
-console.log(getGreeting());
-
-class NewSyntax {
-    name = 'Jen';
-
-    getGreeting = () => {
-        return `Hi, My Name Is ${this.name}`;
-    }
-}
-const newSyntax = new NewSyntax();
-const newGetGreeting = newSyntax.getGreeting;
-console.log(newGetGreeting());
